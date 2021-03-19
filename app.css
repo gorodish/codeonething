@@ -3,7 +3,7 @@
     color: whitesmoke;
     text-align: center;
     margin: 3px auto;
-    min-width: 400px;
+    width: 100px;
 }
 .clock span {
     padding: 2px;
