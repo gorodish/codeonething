@@ -1,11 +1,11 @@
 .clock {
     background: #ff6501;
     color: whitesmoke;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
     min-width: 400px;
 }
 .clock span {
-    padding: 20px;
+    padding: 10px;
 }
