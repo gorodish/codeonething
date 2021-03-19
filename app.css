@@ -1,4 +1,7 @@
 .clock {
     background: orange;
     color: whitesmoke;
+    font-size: 4em;
+    text-align: center;
+    margin: 20px auto;
 }
