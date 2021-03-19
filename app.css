@@ -2,9 +2,9 @@
     background: #ff6501;
     color: whitesmoke;
     text-align: center;
-    margin: 3px auto;
+    margin: 0;
     width: 100px;
 }
 .clock span {
-    padding: 2px;
+    padding: 0;
 }
