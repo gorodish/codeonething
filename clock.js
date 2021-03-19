@@ -13,6 +13,8 @@ const tick = () => {
         <span>{${m}</span> :
         <span>{${s}</span>
     `;
+
+    clock.innerHTML = html;
 }
 
 setInterval(tick, 1000);
