@@ -1,12 +1,13 @@
 .clock {
-    background: #ff6501;
     color: whitesmoke;
     text-align: center;
     width: 100px;
+    border-radius: .3em;
+    background-color: #ff69b4;
 }
 .clock span {
     padding: 2;
 }
 .navbar {
     margin-bottom: 20px;
-  }  
+  }
