@@ -5,9 +5,26 @@
     border-radius: .3em;
     background-color: #ff69b4;
 }
+
 .clock span {
     padding: 2;
 }
+
 .navbar {
     margin-bottom: 20px;
   }
+
+.apiView {
+    max-width: 400px;
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
+.icon {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}

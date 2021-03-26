@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Code one thing</title>
     <script src="https://kit.fontawesome.com/3ab3d22fcf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="../app.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
 <body>
@@ -31,12 +31,12 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item dropdown apiMenu">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             APIs
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" id="weather" href="./src/forecast.html">Weather</a>
+                            <a class="dropdown-item" id="weather" href="forecast.html">Weather</a>
                             <a class="dropdown-item" id="bus" href="#">Buses</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" id="space" href="#">Space</a>
@@ -50,13 +50,32 @@
             </div>
         </div>
     </nav>
-    <div class="container apiView">
+    <div class="my-5 mx-auto apiView">
+        <h1 class="text-muted text-center my-4">The Weather</h1>
+        <form class="change-location my-4 text-center text-muted">
+            <label for="city">Enter a location for weather information</label>
+            <input type="text" name="city" class="form-control p-4">
+            <div class="card shadow-lg rounded d-none">
+                <img src="https://via.placeholder.com/400x300?text=This+is+a+picture" class="time card-img-top">
+                <div class="icon bg-light mx-auto text-center">
+                    <img src="#" alt="">
+                </div>
+                <div class="text-muted text-uppercase text-center details">
+                    <h5 class="my-3">City name</h5>
+                    <div class="my-3">Weather condition</div>
+                    <div class="display-4 my-4">
+                        <span>Temp</span>
+                        <span>&deg;C</span>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.9.0/date_fns.min.js" integrity="sha512-ToehgZGJmTS39fU8sfP9/f0h2Zo6OeXXKgpdEgzqUtPfE5By1K/ZkD8Jtp5PlfdaWfGVx+Jw5j10h63wSwM1HA==" crossorigin="anonymous"></script>
-    <script src="./src/forecast.js"></script>
-    <script src="./src/app.js"></script>
-    <script src="./src/clock.js"></script>
-    <script src="./src/apiChoice.js"></script>
+    <script src="../src/app.js"></script>
+    <script src="../src/clock.js"></script>
+    <script src="../src/apiChoice.js"></script>
+    <script src="../src/forecast.js"></script>
 </body>
 </html>
