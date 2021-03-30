@@ -11,7 +11,7 @@ const updateUI = (data) => {
 
     // destructure properties
     const {cityDets, weather} = data;
-console.log(cityDets);
+
     // update details template
     details.innerHTML = `
         <h5 class="my-3">${cityDets.EnglishName}</h5>
@@ -48,6 +48,7 @@ const updateCity = async (city) => {
     const weather = await getWeather(cityDets.Key);
 
     return {cityDets, weather};
+    
 };
 
 cityForm.addEventListener('submit', e => {
