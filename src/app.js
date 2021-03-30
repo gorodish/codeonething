@@ -11,7 +11,7 @@ const updateUI = (data) => {
 
     // destructure properties
     const {cityDets, weather} = data;
-
+console.log(cityDets);
     // update details template
     details.innerHTML = `
         <h5 class="my-3">${cityDets.EnglishName}</h5>

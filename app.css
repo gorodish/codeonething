@@ -14,6 +14,10 @@
     margin-bottom: 20px;
   }
 
+.navbar-brand {
+  color: #ff7ebf !important;
+  }
+
 .apiView {
     max-width: 400px;
     background: #eeedec;

@@ -24,11 +24,11 @@ const getCity = async (city) => {
     return data[0];
 };
 
-getCity('glasgow')
-    .then(data => {
-        return getWeather(data.Key)
-    }).then(data => {
-        console.log(data);
-    }).catch(data => err => console.log(err));
+// getCity('glasgow')
+//     .then(data => {
+//         return getWeather(data.Key)
+//     }).then(data => {
+//         console.log(data);
+//     }).catch(data => err => console.log(err));
 
-    getWeather("328226");
+//     getWeather("328226");
