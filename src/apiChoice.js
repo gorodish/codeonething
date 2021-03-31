@@ -8,5 +8,6 @@ apiMenu.addEventListener('click', (e) => {
     const id = e.target.id;
 
     // insert the api html
-    apiView.innerHTML = `<div href="./src/forecast.html"</div>`;
+
+    apiView.innerHTML = `url`;
 });
