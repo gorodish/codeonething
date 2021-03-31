@@ -3,6 +3,7 @@ const card = document.querySelector('.card');
 const details = document.querySelector('.details');
 const time = document.querySelector('img.time');
 const icon = document.querySelector('.icon img');
+const PATH = '/codeonething';
 
 const updateUI = (data) => {
     
@@ -23,7 +24,7 @@ const updateUI = (data) => {
     `;
     
     // update the day/night icons
-    const iconSrc = `/img/icons/${weather.WeatherIcon}.svg`;
+    const iconSrc = `PATH/img/icons/${weather.WeatherIcon}.svg`;
     icon.setAttribute('src', iconSrc);
 
     // let timeSrc = null;
